@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
-import { fetchReviews } from "../../fetchAPi";
+import { fetchReviews } from "../../fetchApi";
 
 import css from "./MovieReviews.module.css";
 

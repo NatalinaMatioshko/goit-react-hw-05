@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import toast, { Toaster } from "react-hot-toast";
 
-import { fetchMovieDetails } from "../../fetchAPi";
+import { fetchMovieDetails } from "../../fetchApi";
 
 import css from "./MovieCard.module.css";
 
